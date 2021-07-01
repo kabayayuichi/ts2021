@@ -59,6 +59,10 @@ body {font-family: 'YuGothic','Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
     line-height: 180%;
 }
 
+#speakers {text-align:center;}
+#speakers ul {text-align:left; display:inline-block;}
+#speakers .affiliation {padding-left: 10px;}
+
 a {text-decoration:none;} 
 a:hover {text-decoration:underline;} 
 
@@ -67,6 +71,7 @@ ul li{margin:5px;}
 
 @media (max-width: 900px){
     #container{ width:98%;}
+    #speakers {text-align:left;}
 }
 
 @media (max-width: 600px){
