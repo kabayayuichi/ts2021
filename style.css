@@ -49,19 +49,26 @@ body {font-family: 'YuGothic','Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
 }
 
 #main-contents p{
-    margin:10pt 10pt 10pt 10pt;
+    margin:10pt 10pt 10pt 0pt;
 }
 
 #schedule table {margin:15px auto 15px auto;}
 #schedule th {
     padding: 2px 10px 2px 0px;
+    width:50px;
     text-align: left;
     line-height: 180%;
 }
 
-#speakers {text-align:center;}
-#speakers ul {text-align:left; display:inline-block;}
-#speakers .affiliation {padding-left: 10px;}
+#program table {border-collapse: collapse; margin:0 auto 0 auto;}
+#program th {padding:30px 2px 5px 0; border:#000 0px solid; font-size:140%; text-align: left;}
+#program th.top_row {padding-top: 0px;}
+#program td{padding:8px; text-align:left; border:#000 1px solid;}
+#program .time {width: 100px;}
+#program .speaker {}
+#program .affiliation {margin-left:5px;}
+#program .title {font-style:italic;}
+#program .lunch {text-align:center;}
 
 a {text-decoration:none;} 
 a:hover {text-decoration:underline;} 
@@ -74,9 +81,11 @@ ul li{margin:5px;}
     #speakers {text-align:left;}
 }
 
-@media (max-width: 600px){
+@media (max-width: 620px){
     #container{ width:98%; font-size:12px;}
     #title{font-size:14px}
-    #title h1 {font-size:30px;}
+    #title h1 {font-size:25px;}
     #main-contents h2 {font-size:14px;}
+    #schedule th {width:40px;}
+    #program .time {width: 64px;}
 }
