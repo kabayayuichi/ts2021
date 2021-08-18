@@ -49,7 +49,7 @@ body {font-family: 'YuGothic','Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
 }
 
 #main-contents p{
-    margin:10pt 10pt 10pt 0pt;
+    margin:10px 10px 10px 0px;
 }
 
 #schedule table {margin:15px auto 15px auto;}
@@ -69,6 +69,7 @@ body {font-family: 'YuGothic','Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
 #program .affiliation {margin-left:5px;}
 #program .title {font-style:italic;}
 #program .lunch {text-align:center;}
+#program .abst {margin-left: 10px; font-style:normal}
 
 a {text-decoration:none;} 
 a:hover {text-decoration:underline;} 
